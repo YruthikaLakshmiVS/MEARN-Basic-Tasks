@@ -1,0 +1,48 @@
+/* Universal selector */
+*{
+    background-color: antiquewhite;
+}
+
+/* <!-- Tag selectors --> */
+h1{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Id selector */
+#head
+{
+    color: brown;
+    text-underline-position: below;
+}
+/* class selectors  */
+.cls
+{
+    color: blue;
+    text-align: center;
+}
+/* group selectors */
+p,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    background-color: black;
+    color: white;
+}
+/* pseudo class selector */
+button:hover
+{
+    background-color: white;
+    color: black;
+}
+p::first-line
+{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p::first-letter
+{
+    color: blueviolet;
+    font-size: larger;
+}
